@@ -37,6 +37,17 @@ To run this app, you need Python installed along with the following dependencies
 - **PyWin32**: For text-to-speech functionality (Windows only).
 - **Streamlit**: For the web interface.
 
+### Prerequisites
+
+Ensure you have the Haar Cascade file (`haarcascade_frontalface_default.xml`) in a `data/` folder. You can download it from the [OpenCV GitHub repository](https://github.com/opencv/opencv/tree/master/data/haarcascades).
+
+Create the following directories:
+
+- `data/`: For storing the Haar Cascade file, `names.pkl`, and `faces_data.pkl`.
+- `Attendance/`: For storing attendance CSV files.
+
+Optionally, provide a `background.png` image (used in `test.py` for the UI background).
+
 ### Installation
 Install the required libraries using pip:
 
